@@ -1,0 +1,159 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Onest:wght@700&family=Outfit:wght@100;400;600;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Onest:wght@400;700&family=Outfit:wght@100;400;600;700&family=Poppins&display=swap'); */
+
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family:"onset", sans-serif;*/} 
+header{
+    background: url(/images/hero-img.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:center, top;
+    background-blend-mode: multiply;
+    background-color: #312f2f; 
+}
+.services-container{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.services-container::-webkit-scrollbar{
+   width:auto;
+}
+.services-container img{
+    width:330px;
+    filter:brightness(70%)
+} 
+.header-text-container {
+   padding-top: 15em;
+
+}
+.header-text-container span{
+    color: rgb(94, 216, 216) ;
+}
+nav li a{
+    list-style:none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;   
+}
+.mobileMenuEl{
+    display:none ;
+}
+.open{
+    display:block;
+    transform: translateX(5%) !important;
+}
+.section1-content-container h1{
+    color: rgb(72, 163, 163);
+    
+    
+}
+
+.header-text-container-button button {
+   border-color:rgb(72, 163, 163) ;
+   background-color: transparent;
+   color: aliceblue;
+   box-shadow: 1px 2px 3px  rgb(77, 76, 76);
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+
+/* skills */
+.progress-bar{
+    background-color:rgb(72, 163, 163) ;
+}
+footer{
+    background-color:rgb(46, 105, 105) ;
+    width: 100%;
+}
+
+.footer-line {
+    width: 90%;
+    margin: 2% auto;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.13);
+}
+
+footer h2 {
+    color: #FFF;
+    font-family: Saol Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+    width: 367px;
+}
+
+footer p {
+    /* width: 414px; */
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    /* 25.6px */
+    letter-spacing: 0.72px;
+}
+
+footer input {
+    width: 100%;
+    height: 56px;
+    /* padding: 18px 241px 20px 29px; */
+    align-items: center;
+    border: 0.5px solid rgba(255, 255, 255, 0.17);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(70px);
+}
+
+.susbscribe-button {
+    width: 100%;
+    height: 56px;
+    /* padding: 20px 40px; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #C32125;
+    color:rgb(46, 105, 105);
+    font-family: "Onest",sans-serif;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 1em;
+}
+
+footer li {
+    margin-top: 1em;
+    color: rgba(255, 255, 255, 0.72);
+    font-family:" Onest",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    /* 24px */
+    letter-spacing: 0.72px;
+    list-style-type: none;
+}
+
+footer .active {
+    color: #FFF;
+    font-family:" Onest",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 30px */
+    letter-spacing: 0.9px;
+}
+@media(max-width:500px) {
+    .header-text-container {
+        padding-top: 5em;
+     
+     }
+}
