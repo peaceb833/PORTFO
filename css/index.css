@@ -345,7 +345,7 @@ footer .active {
 }
 @media(max-width:500px) {
     .header-text-container {
-        transform: translate(0,100%);
+        transform: translate(0,250px);
      
      }
 }
