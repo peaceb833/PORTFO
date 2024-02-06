@@ -10,3 +10,10 @@ openEl.addEventListener('click', () => {
     mobileMenuEl.classList.remove("open");
   });
   
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
