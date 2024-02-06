@@ -83,6 +83,9 @@ nav li a{
     color: rgb(72, 163, 163);
 
 }
+.progress-bar{
+    background-color:rgb(72, 163, 163) ;
+}
 .section4{
     background-color: rgb(46, 105, 105);
 }
@@ -105,6 +108,10 @@ nav li a{
 .section5 span{
     color: rgb(46, 105, 105);
 }
+.section5 a{
+    text-decoration: none;
+    color:  rgb(72, 163, 163);
+}
 .work-container{
     display: flex;
     overflow-x: auto;
@@ -119,9 +126,24 @@ nav li a{
 .work-content-container p{
     font-size: smaller;
 }
-.progress-bar{
-    background-color:rgb(72, 163, 163) ;
+ /* CONTACT */
+ .section6 h2{
+    color:  rgb(72, 163, 163);
 }
+ .section6 p{
+    font-size: smaller;
+ }
+ .contact-content-container{
+    background-color:rgb(46, 105, 105) ;
+    border-radius: 20px;
+   
+ }
+ .contact-content-container p{
+    color: rgb(174, 190, 190) ;
+ }
+ .contact-content-container button{
+    color: rgb(181, 223, 223);
+ }
 footer{
     background-color:rgb(46, 105, 105) ;
     width: 100%;
