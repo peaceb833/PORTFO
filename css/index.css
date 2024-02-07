@@ -70,7 +70,7 @@ header{
     }
     .navbars .mobileNavMenu{
         width: 80%;
-        height: 100vh;
+        height: 95vh;
         background-color:rgb(36, 82, 82);
         display: block;
         position: absolute;
@@ -82,6 +82,8 @@ header{
         z-index: 999;
         transform: translateX(-200%);
         transition: 1.5s;
+        border-bottom-left-radius: 50%;
+        
        
     }
     .open{
@@ -89,7 +91,7 @@ header{
     }
     .navbars .mobileNavMenu .mobileNavbarLists{
         width: 100%;
-        height: 80%;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -140,7 +142,7 @@ header{
 .header-text-container {
    position: relative;
    top: 30%;
-   transform: translate(0,50%);
+   transform: translate(0,150px);
   
 
 }
@@ -252,8 +254,9 @@ nav li a{
  .contact-content-container p{
     color: rgb(174, 190, 190) ;
  }
- .contact-content-container button{
+ .contact-content-container button a{
     color: rgb(181, 223, 223);
+    text-decoration: none;
  }
 
  /* TESTIMONIAL */
@@ -322,7 +325,7 @@ footer input {
     margin-left: 1em;
 }
 
-footer li {
+footer li  {
     margin-top: 1em;
     color: rgba(255, 255, 255, 0.72);
     font-family:" Onest",sans-serif;
@@ -332,6 +335,11 @@ footer li {
     /* 24px */
     letter-spacing: 0.72px;
     list-style-type: none;
+   
+}
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.72);
 }
 
 footer .active {
