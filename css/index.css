@@ -183,7 +183,10 @@ nav li a{
    border-top-right-radius: 10px;
 
 }
-
+.header-text-container-button a{
+    text-decoration: none;
+    color: aliceblue;
+}
 .section2 h2{
     color: rgb(72, 163, 163);
  
