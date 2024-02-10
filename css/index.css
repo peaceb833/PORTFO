@@ -14,7 +14,9 @@ header{
     background-blend-mode: multiply;
     background-color: #312f2f; 
 }
-
+.logo-holder img{
+width:50px;
+}
 .navbars{
     padding: 0 6rem;
     width: 100%;
@@ -137,7 +139,9 @@ header{
 }
 .services-container img{
     width:330px;
-    filter:brightness(70%)
+    filter:brightness(70%);
+    border-radius: 15px;
+    
 } 
 .header-text-container {
    position: relative;
@@ -199,6 +203,9 @@ nav li a{
     color: rgb(72, 163, 163);
 
 }
+.progress{
+    width: 100%;
+}
 .progress-bar{
     background-color:rgb(72, 163, 163) ;
 }
@@ -241,6 +248,11 @@ nav li a{
 } 
 .work-content-container p{
     font-size: smaller;
+}
+.demo-container button{
+ border:none ;
+ border: 1px solid rgb(46, 105, 105);
+ border-radius: 5px;
 }
  /* CONTACT */
  .section6 h2{
@@ -359,4 +371,7 @@ footer .active {
         transform: translate(0,250px);
      
      }
+     .progress{
+        width: 100%;
+    }
 }
